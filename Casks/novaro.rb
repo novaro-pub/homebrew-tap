@@ -2,7 +2,7 @@ cask "novaro" do
   name "novaro"
   desc "The NovaroPay command-line tool"
   homepage "https://github.com/novaro-pub/novaro-cli"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "novaro" do
 
   on_macos do
     on_intel do
-      url "https://github.com/novaro-pub/novaro-cli/releases/download/v0.1.0/novaro_0.1.0_darwin_amd64.tar.gz"
-      sha256 "77151fb57df3c44777695e1fd4d83a32d36154cf0ce6a978b297e37c7d4430c9"
+      url "https://github.com/novaro-pub/novaro-cli/releases/download/v0.1.1/novaro_0.1.1_darwin_amd64.tar.gz"
+      sha256 "08cdfd0016ada8b11c621aa940531b1b05d4bed25c8bc2472558016d353ea6a5"
     end
     on_arm do
-      url "https://github.com/novaro-pub/novaro-cli/releases/download/v0.1.0/novaro_0.1.0_darwin_arm64.tar.gz"
-      sha256 "12b48993dd6060d5c32abadb7cded3d52f6c168ad696b2fab5ef0add6e8f6024"
+      url "https://github.com/novaro-pub/novaro-cli/releases/download/v0.1.1/novaro_0.1.1_darwin_arm64.tar.gz"
+      sha256 "0d6e9f377c6722d9297532534cf88b151e7d7c9546062f8dc269e687cc4575af"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/novaro-pub/novaro-cli/releases/download/v0.1.0/novaro_0.1.0_linux_amd64.tar.gz"
-      sha256 "2f5f2073a62eb49e10158cbbcdcffa85a5c2403f62cfb1454752f1ee9cc9f86e"
+      url "https://github.com/novaro-pub/novaro-cli/releases/download/v0.1.1/novaro_0.1.1_linux_amd64.tar.gz"
+      sha256 "a7f587674479e3184c7ecf436931247ce7201a11889f9f5856fed4552fb96a46"
     end
     on_arm do
-      url "https://github.com/novaro-pub/novaro-cli/releases/download/v0.1.0/novaro_0.1.0_linux_arm64.tar.gz"
-      sha256 "ca1d9aa44494a37df7323f29dcd8c1418e0995b6bfe1757c3fe4b1ab062ecb11"
+      url "https://github.com/novaro-pub/novaro-cli/releases/download/v0.1.1/novaro_0.1.1_linux_arm64.tar.gz"
+      sha256 "eca26047eed14401167d774a6c59d4bed3b6eb670d956f76f1f556ff5820ef75"
     end
   end
 
